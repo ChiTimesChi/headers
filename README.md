@@ -15,9 +15,9 @@ $ python3 headers.py this is quite a pretty good looking box
 ```
 
 ```solidity
-    /*╔══════════════════════════════════════════════════════════════════════╗*\
-    ▏*║               THIS IS QUITE A PRETTY GOOD LOOKING BOX                ║*▕
-    \*╚══════════════════════════════════════════════════════════════════════╝*/
+    /*┌──────────────────────────────────────────────────────────────────────┐*\
+    ▏*│               THIS IS QUITE A PRETTY GOOD LOOKING BOX                │*▕
+    \*└──────────────────────────────────────────────────────────────────────┘*/
 ```
 
 It will also copy the header to your clipboard automatically.

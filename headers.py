@@ -2,18 +2,18 @@ import sys
 import pyperclip
 
 # https://en.wikipedia.org/wiki/Box-drawing_character
-SYMBOL_HEAD: str = "═"
-SYMBOL_BUTT: str = "═"
+SYMBOL_HEAD: str = "─"
+SYMBOL_BUTT: str = "─"
 
 # Comment section needs to start with /*
-PRE_HEAD: str = "/*╔"
-PRE_BODY: str = "▏*║"
-PRE_BUTT: str = "\*╚"
+PRE_HEAD: str = "/*┌"
+PRE_BODY: str = "▏*│"
+PRE_BUTT: str = "\*└"
 
 # "\\" is one symbol: escaped \
-POST_HEAD: str = "╗*\\"
-POST_BODY: str = "║*▕"
-POST_BUTT: str = "╝*/"
+POST_HEAD: str = "┐*\\"
+POST_BODY: str = "│*▕"
+POST_BUTT: str = "┘*/"
 # Comment section needs to end with */
 
 # Total width (including tabulation) for headers
